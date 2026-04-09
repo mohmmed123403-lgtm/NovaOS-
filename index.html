@@ -3,78 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M-WinX | The Ultimate Performance Windows</title>
+    <title>M-Core Pro - النسخة الرسمية</title>
     <style>
-        /* ستايل النيون الاحترافي اللي بتحبه */
-        body {
-            background-color: #0a0a0a;
-            color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+        
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             padding: 20px;
         }
-        h1 {
-            color: #00f2ff;
-            text-shadow: 0 0 10px #00f2ff, 0 0 20px #00f2ff;
-            font-size: 3rem;
-        }
+        
         .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            border: 2px solid #00f2ff;
-            border-radius: 15px;
-            box-shadow: 0 0 15px #00f2ff;
+            max-width: 600px;
+            width: 100%;
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 24px;
+            padding: 50px 40px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            text-align: center;
         }
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            margin-top: 20px;
-            background-color: transparent;
-            color: #ff00ff;
-            border: 2px solid #ff00ff;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: 0.3s;
-            text-shadow: 0 0 5px #ff00ff;
-        }
-        .btn:hover {
-            background-color: #ff00ff;
-            color: white;
-            box-shadow: 0 0 20px #ff00ff;
-        }
-        p { font-size: 1.2rem; line-height: 1.6; }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <h1>M-WinX Project 🚀</h1>
-        <p>مرحباً بكم في مشروع <strong>M-WinX</strong> - النسخة الأسرع والأخف من ويندوز 11 للمصممين والجيمرز.</p>
         
-        <div style="margin: 30px 0;">
-            <img src="https://via.placeholder.com/600x300/0a0a0a/00f2ff?text=M-WinX+Neon+Power" alt="M-WinX Logo" style="width: 100%; border-radius: 10px; border: 1px solid #ff00ff;">
-        </div>
-
-        <a href="https://github.com/mohmmed123403-lgtm/M-WinX/releases" class="btn">تحميل النسخة الآن (Download)</a>
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            border-radius: 20px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: 900;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
+        }
         
-        <p style="margin-top: 40px; color: #888;">صُنع بكل فخر بواسطة المطور المصري محمد (M-WinX Team)</p>
-    </div>
-
-    <script type="text/javascript">
-    var sc_project=13212332; 
-    var sc_invisible=1; 
-    var sc_security="b4552d7a"; 
-    </script>
-    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-    <noscript>
-        <div class="statcounter">
-            <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
-                <img class="statcounter" src="https://c.statcounter.com/13212332/0/b4552d7a/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade">
-            </a>
-        </div>
-    </noscript>
-    </body>
-</html>
+        h1 {
+            font-size: 36px;
+            font-weight: 900;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .subtitle {
